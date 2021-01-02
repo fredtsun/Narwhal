@@ -6,7 +6,8 @@ const services = {
     bindService: asClass(require('./bind.service')).singleton(),
     localCache: asClass(require('./local_cache')).singleton(),
     prefixService: asClass(require('./prefix.service')).singleton(),
-    coinsService: asClass(require('./coins.service')).singleton()
+    coinsService: asClass(require('./coins.service')).singleton(),
+    allTimeHighService: asClass(require('./all_time_high.service')).singleton()
 }
 
 module.exports = {

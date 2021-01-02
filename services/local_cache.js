@@ -26,7 +26,8 @@ class LocalCache {
             'BIND': {
                 'value': ''
             },
-            'COINS': {}
+            'COINS': {},
+            'ATH': {}
         }
     }
 
