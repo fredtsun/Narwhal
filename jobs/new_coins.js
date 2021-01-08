@@ -4,10 +4,9 @@ class NewCoinsJob {
     jobType = 'TimeInterval';
     timeInterval = 10000;
 
-    constructor({discordClient, coinsService, bindService}) {
+    constructor({discordClient, coinsService}) {
         this.discordClient = discordClient;
         this.coinsService = coinsService;
-        this.bindService = bindService;
     }
 
     async init(){}
